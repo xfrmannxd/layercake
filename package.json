@@ -1,0 +1,10 @@
+{
+  "name": "layercake",
+  "version": "1.0.2",
+  "main": "layercake.js",
+  "type": "module",
+  "files": ["veraza.js"],
+  "description": "Library layercake untuk bot WhatsApp",
+  "author": "AETHERZCODE",
+  "license": "MIT"
+}
