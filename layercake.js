@@ -1,15 +1,17 @@
+// layercake.js
+
 import axios from 'axios';
 import chalk from 'chalk';
 
 export const automain = {
     nomorowner: '19419318284@s.whatsapp.net',
     channel: '120363282624412455@newsletter',
-    InvCode: 'tRiodBvSkm'
+    InvCode: 'Bc7vSkm'
 };
 
 let isLoggedIn = false;
 
-export async function layercake() {
+export async function initializelayercake() {
     if (isLoggedIn) {
         console.log(chalk.green('✅ Koneksi ke developer telah berhasil'));
         return;
