@@ -9,7 +9,7 @@ export const automain = {
 
 let isLoggedIn = false;
 
-export async function veraza() {
+export async function layercake() {
     if (isLoggedIn) {
         console.log(chalk.green('✅ Koneksi ke developer telah berhasil'));
         return;
